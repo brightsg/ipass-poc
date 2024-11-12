@@ -1,6 +1,6 @@
 {
-    "pageTitle": "Azure OpenAI + AI Search",
-    "headerTitle": "Azure OpenAI + AI Search",
+    "pageTitle": "IPASS",
+    "headerTitle": "The IPASS Book - 21st Edition",
     "chat": "Chat",
     "qa": "Ask a question",
     "login": "Login",
@@ -34,20 +34,20 @@
     },
     "developerSettings": "Developer settings",
 
-    "chatEmptyStateTitle": "Chat with your data",
+    "chatEmptyStateTitle": "The Ultimate Guide to Payroll and Employment Law in Ireland",
     "chatEmptyStateSubtitle": "Ask anything or try an example",
     "defaultExamples": {
-        "1": "What is included in my Northwind Health Plus plan that is not in standard?",
-        "2": "What happens in a performance review?",
-        "3": "What does a Product Manager do?",
-        "placeholder": "Type a new question (e.g. does my plan cover annual eye exams?)"
+        "1": "What benefits does a home carer qualify for?",
+        "2": "How do I calculate PRSI?",
+        "3": "What does a Payroll Manager do?",
+        "placeholder": "Type a new question (e.g. what is PAYE tax credit?)"
     },
-    "askTitle": "Ask your data",
+    "askTitle": "Ask IPASS",
     "gpt4vExamples": {
         "1": "Compare the impact of interest rates and GDP in financial markets.",
         "2": "What is the expected trend for the S&P 500 index over the next five years? Compare it to the past S&P 500 performance",
         "3": "Can you identify any correlation between oil prices and stock market trends?",
-        "placeholder": "Example: Does my plan cover annual eye exams?"
+        "placeholder": "Example: What is PAYE tax credit?"
     },
     "generatingAnswer": "Generating answer",
     "citationWithColon": "Citation:",
