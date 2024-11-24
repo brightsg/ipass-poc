@@ -13,9 +13,9 @@ export const SettingsButton = ({ className, onClick }: Props) => {
     const { t } = useTranslation();
     return (
         <div className={`${styles.container} ${className ?? ""}`}>
-            <Button icon={<Settings24Regular />} onClick={onClick}>
+            {/* <Button icon={<Settings24Regular />} onClick={onClick}>
                 {t("developerSettings")}
-            </Button>
+            </Button> */}
         </div>
     );
 };
