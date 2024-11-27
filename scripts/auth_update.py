@@ -23,6 +23,7 @@ async def main():
     graph_client = GraphServiceClient(credentials=credential, scopes=scopes)
 
     uri = os.getenv("BACKEND_URI")
+    custom_uri = os.getenv("CUSTOM_URI")
     client_app_id = os.getenv("AZURE_CLIENT_APP_ID", None)
     if client_app_id:
         client_object_id = await get_application(graph_client, client_app_id)
@@ -36,11 +37,13 @@ async def main():
                         "http://localhost:50505/redirect",
                         "http://localhost:5173/redirect",
                         f"{uri}/redirect",
+                        f"{custom_uri}/redirect",
                     ]
                 ),
                 web=WebApplication(
                     redirect_uris=[
                         f"{uri}/.auth/login/aad/callback",
+                        f"{custom_uri}/.auth/login/aad/callback",
                     ]
                 ),
             )
