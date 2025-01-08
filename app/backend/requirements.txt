@@ -119,7 +119,7 @@ hpack==4.0.0
     # via h2
 httpcore==1.0.5
     # via httpx
-httpx[http2]==0.27.0
+httpx[http2]==0.28.1
     # via
     #   microsoft-kiota-http
     #   msgraph-core
