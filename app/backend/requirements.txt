@@ -330,7 +330,7 @@ priority==2.0.0
     # via hypercorn
 propcache==0.2.0
     # via yarl
-psutil==5.9.8
+psutil==6.1.1
     # via azure-monitor-opentelemetry-exporter
 pycparser==2.22
     # via cffi
