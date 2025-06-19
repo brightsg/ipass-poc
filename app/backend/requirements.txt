@@ -418,7 +418,7 @@ typing-extensions==4.12.2
     #   pydantic-core
 tzdata==2024.1
     # via pendulum
-urllib3==2.2.2
+urllib3==2.5.0
     # via requests
 uvicorn==0.30.6
     # via -r requirements.in
